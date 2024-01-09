@@ -1,0 +1,5 @@
+{
+  "personalAccessToken": "",
+  "uri": "https://dev.azure.com/{org}/{project}/_apis/wit/wiql?api-version=5.1",
+  "query": "SELECT [System.Id], [System.Title], [System.State], [System.WorkItemType],[System.AssignedTo],[System.State],[System.Tags] FROM WorkItems WHERE [System.IterationPath] UNDER 'Pro1\\Sprint 1'  AND [System.AssignedTo] IN ('udhaya kumar k') AND [System.WorkItemType] IN ('User Story')"
+}
